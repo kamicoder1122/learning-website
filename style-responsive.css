@@ -1,0 +1,501 @@
+@media screen and (max-width: 480px){
+    .header{
+        background-color: black;
+        z-index: 100px;
+        position: sticky;
+        top: 0;
+        padding: 0 50px;
+        margin-top: 50px;
+    }
+    .start-heading{
+        text-align: left;
+        margin-left: 20px;
+    }
+    .heading .heading-text{
+        text-align: left;
+        font-size: 50px;
+    }
+    .pics-container{
+        flex-wrap: wrap;
+    }
+    .pics-container img{
+        width: 100%;
+    }
+    .pics-card{
+        display: flex;
+        width: 48%;
+        gap: 20px;
+    
+    }
+    .pics-card-center{
+        width: 100%;
+    }
+    .title{
+        font-size: 30px;
+        line-height: 100px;
+        text-align: left;
+    }
+    .Service-heading{
+        font-size: 40px;
+    }
+    .card-listing{
+        display: block;
+    }
+    .card{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .div-section{
+        margin: 0 22px;
+    }
+    .about-container{
+        flex-wrap: wrap;
+    }
+    .about{
+        width: 100%;
+    }
+    .offers-container{
+         width: 100%;
+         margin-top: 50px;
+    }
+    .offers{
+        gap: 50px;
+        margin-left: 70px;
+    }
+    .offer-design{
+        font-size: 60px;
+    }
+    .offer-discrip{
+        font-size: 30px;
+    }
+    .about-cont{
+        flex-wrap:wrap ;
+    }
+    .about-cont img{
+        width: 100%;
+    }
+    .about-pic{
+        width: 100%;
+    }
+    .apart-listing{
+        width: 100%;
+    }
+    .apart-listing h1{
+        font-size: 40px;
+    }
+    .heading-portfolio{
+        text-align: left;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+    .heading-text{
+        text-align: left;
+    }
+    .byname-container{
+        display: block;
+        margin-left: 20px;
+    }
+    .ul-container{
+        width: 85%;
+    }
+    .icon-design{
+        width: 100%;
+    }
+    .icon{
+        width: 20%;
+    }
+    .display-non{
+        display: none;
+    }
+    .all-discription{
+        margin-top: -90px;
+        width: 100%;
+        text-align: justify;
+    }.footer-links{
+        display: block;
+    }
+    .logo-disption{
+        width:100%;
+    }
+    .logo-disption1{
+        display: inline-block;
+        width: 25%;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .logo-disption2{
+        display: inline-block;
+        width: 45%;
+    }
+    .footer-h1 h1{
+        font-size: 15px;
+    }
+    .icon-designing{
+        font-size: 30px;
+    }
+/* servive page responsive */
+    .design{
+        text-align: left;
+    }
+    .title-heading{
+        margin-top: 120px;
+    }
+    .service-container{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .software-projects{
+        width: 100%;
+    }
+    .software-heading h1{
+        font-size: 35px;
+    }
+    .software-heading p{
+        font-size: 22px;
+    }
+    .single-marking{
+        gap: 50px;
+    }
+    .single-marking p{
+        font-size: 20px;
+    }
+    .fa-solid{
+        font-size: 30px;
+    }
+    .software-projects-img img{
+        width: 100%;
+        height: 300px;
+    }
+    .software-projects-img{
+        width: 100%;
+    }
+    .services-heading{
+        font-size: 25px;
+        margin: 40px 0;
+    }
+    .services-cards{
+        display: block;
+    }
+    .services-cardscards{
+        width: 100%;
+    }
+    .services-cardscards h1{
+        font-size: 60px;
+    }
+    .services-cardscards h2{
+        font-size: 40px;
+    }
+    .services-cardscards p{
+        line-height: 35px;
+        font-size: 20px;
+    }
+    /* Aboutus page */
+
+    .start-heading-top{
+        margin: 60px 0;
+    }
+    .heading-top{
+        display: block;
+    }
+    .heading-text-top{
+        width: 100%;
+    }
+    .heading-text-top h1{
+        font-size: 70px;
+    }
+    .heading-text-top h1 br{
+        display: none;
+    }
+    .design-top{
+        width: 100%;
+    }
+    .design-top p{
+        font-size: 30px;
+    }
+    .about-imgs{
+        gap: 40px;
+    }
+    .abouts{
+        width: 50%;
+    }
+    .aboutsss{
+        width: 50%;
+    }
+    .byname-container{
+        display: block;
+    }
+    .ul-container{
+        width: 100%;
+    }
+    .li-design{
+        gap: 50px;
+    }
+    .icon-design{
+        width: 100%;
+        border-radius: 30%;
+    }
+    .icon-design img{
+        width: 100%;
+    }
+    .icon{
+        width: 20%;
+    }
+    .person-detail{
+        font-size: 35px;
+    }
+    .person-detail span{
+        font-size: 35px;
+    }
+    .abboutt{
+        font-size: 25px;
+    }
+    .apart-listing{
+        margin-top: 70px;
+    }
+    .apart-listing h1{
+        font-size: 60px;
+    }
+    .counter-content{
+       margin-top: 150px;
+    }
+    .counter{
+        font-size: 35px;
+    }
+    .content h3{
+        font-size: 40px;
+    }
+    .content p{
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .start-heading{
+        margin-top: 200px;
+        margin-bottom: 70px;
+    }
+    .start-heading span{
+        font-size: 20px;
+    }
+    .logos-container{
+        width: 100%;
+    }
+    .logooo{
+        background-color: blueviolet;
+        display: block;
+        width: 100%;
+    }
+    .logoo{
+        background-color: brown;
+        width: 30%;
+    }
+    .logoo img{
+        width: 100%;
+    }
+    .about-content-flex{
+        display: block;
+        gap: 10%;
+    }
+    .about-content{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .heading-content-icon img{
+        width: 40px;
+    }
+    .heading-content-icon h1{
+        font-size: 30px;
+    }
+    .about-content-p{
+        font-size: 25px;
+    }
+    .about-contenttt{
+        width: 45%;
+    }
+    .about-content-flex{
+        margin-top: 50px;
+    }
+    .about-contenttt{
+        width: 100%;
+    }
+    .logo-disption p{
+        font-size: 25px;
+    }
+    /* Careers Page */
+
+    .logo-link img{
+        width: 250px;
+    }
+    .logo-link p{
+        font-size: 30px;
+    }
+    .heading-search-account-card{
+        margin-top: 50px;
+        display: block;
+    }
+    .heading-search h1{
+        font-size: 90px;
+    }
+    .heading-search input{
+        font-size: 30px;
+        margin-right: 20px;
+        width: 700px;
+        height: 110px;
+    }
+    .fa-magnifying-glass{
+        left: 85%;
+    }
+    .account-card{
+        margin: 60px 30px;
+        width: 700px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .account-card button{
+        font-size: 20px;
+        width: 600px;
+        height: 80px;
+        margin: 30px 50px;
+        border-radius: 8px;
+    }
+    .marking{
+        width: 700px;
+    }
+    .marking p{
+        font-size: 30px;
+    }
+    .single-marking{
+        display: flex;
+        gap: 20px;
+    }
+    .fa-solid{
+        font-size: 40px; 
+    }
+    .heading-sec{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        font-size: 50px;
+        text-align: center;
+    }
+    .parent-cards{
+        display: block;
+        width: 100%;
+    }
+    .card{
+        margin-top: 40px;
+        width: 100%;
+        height: 400px;
+    }
+    .card-feature{
+        width: 100px;
+        padding: 10px;
+        margin-left: 5px;
+    }
+    .card-feature p{
+        font-size: 20px;
+    }
+    .card-heading h3{
+        font-size: 30px;
+    }
+    .card-heading span{
+        font-size: 25px;
+    }
+    .blank{
+        height: 6px;
+    }
+    .card-again-heading h4{
+        font-size: 25px;
+    }
+    /* .card-btn Button{
+        margin: 80px 500px 0;
+        width: 450px;
+        height: 150px;
+        font-size: 40px;
+    } */
+    .chip-parent{
+        margin-top: 100px;
+    }
+    .second-heading-sec{
+        font-size: 40px;
+        text-align: center;
+    }
+    .circle{
+        width: 90px;
+        height: 90px;
+        margin-left: 330px;
+        margin-top: -50px;
+    }
+    .circle-icon{
+        width: 60px;
+        margin-top: 9.0px;
+    }
+    .circle-icon img{
+        margin-left: 9.0px;
+    }
+    .chip-container{
+        display: block;
+        width: 100%;
+    }
+    .chip{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .chip-heading-p h3{
+        padding: 30px;
+        font-size: 30px;
+    }
+    .chip-heading-p h4{
+        padding-bottom: 40px;
+        font-size: 25px;
+    }
+    .footer-container{
+        display: block;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .footer-flex{
+        padding: 50px 0;
+        padding-left: 50px;
+    }
+    .footer-flex h1{
+        font-size: 50px;
+    }
+    .footer-flex p{
+        font-size: 30px;
+        padding: 0 50px;
+    } 
+    .footer-search{
+        padding: 30px 130px 80px 150px;
+    }
+    .footer-search input{
+        font-size: 30px;
+        width: 400px;
+        height: 70px;
+    }
+    .footer-search button{
+        font-size: 25px;
+        margin-top: 30px;
+        width: 210px;
+        height: 80px;
+    }
+    .last-footer{
+        margin-top: 100px;
+        display: block;
+        text-align: center;
+    }
+    .last-footer p{
+        font-size: 30px;
+    }
+    .footer-circle{
+        margin-bottom: 150px;
+        width: 0;
+        height: 0;
+        border-radius: 0;
+    }
+    .circle-img{
+        width: 50px;
+        margin-top: 100px;
+    }
+    .circle-img img{
+        width: 100%;
+        margin-left: 350px;
+    }
+}

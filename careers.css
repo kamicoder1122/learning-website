@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(240, 236, 236);
+}
+section{
+    margin: 0 30px;
+}
+.career-container{
+    background-color: rgb(9, 108, 141);
+    color: white;
+}
+.logo-link{
+    display: flex;
+    justify-content: space-between;
+    margin:0 30px;
+    padding-top: 20px;
+}
+.logo-link img{
+    width: 200px;
+}
+.heading-search-account-card{
+    padding-bottom: 50px;
+    display: flex;
+    gap: 20px;
+}
+.heading-search{
+    margin-left: 30px;
+    margin-top: 200px;
+}
+.heading-search h1{
+    font-size: 55px;
+    text-emphasis-style:initial;
+}
+.heading-search input{
+    width: 700px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+}
+.input-con{
+    position: relative;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    top: 65%;
+    left: 96%;
+    transform: translate(-50%, -96%);
+    font-size: 100px;
+    color: lightgrey;
+}
+.account-card{
+    width: 400px;
+    background-color:rgb(49, 172, 172);
+    border-radius: 5px;
+    font-size: 20px;
+}
+.account-card h3{
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.account-card button{
+    width: 350px;
+    margin-left: 25px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: none;
+}
+.account-card button:hover{
+    transition: 0.2s ease-in-out;
+    background-color: rgb(3, 3, 41);
+    color: white;
+}
+.marking{
+    width: 300px;
+    align-items: center;
+    margin: 50px 50px;
+}
+.marking p{
+    font-size: 17px;
+}
+.single-marking{
+    display: flex;
+    gap: 20px;
+}
+.fa-solid{
+    font-size: 20px; 
+}
+.heading-sec{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.parent-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20PX;
+}
+.card{
+    width: 31.9%;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+.card-feature{
+    border:none;
+    background-color: rgb(65, 223, 223);
+    width: 70px;
+    padding: 5px;
+    margin-left: 5px;
+}
+.card-heading{
+    text-align: center;
+}
+.card-heading h3{
+    color: rgb(42, 42, 190);
+}
+.card-heading span{
+    color: gray;
+    font-size: 15px;
+}
+.blank{
+    background-color: lightgray;
+    margin: 30px 44% 15px 44%;
+    height: 4px;
+    
+}
+.card-again-heading{
+    text-align: center;
+    margin-top: 10px;
+}
+.card-again-heading h4{
+    color: gray;
+    line-height: 1.8;
+    font-size: 15px;
+}
+.card-again-heading span{
+    color: lightgray;
+    display: inline-block;
+    padding: 0 10px;
+}
+.last{
+    padding-top: 30px;
+}
+.card:hover .blank{
+    background-color:rgb(65, 223, 223);
+    
+    margin: 30px 38% 15px 38%;
+    transition: 0.3s ease-in-out;
+}
+.card:hover .card-heading-text{
+    color: rgb(65, 223, 223);
+    transition: 3 ease-in-out;
+}
+.card-btn button{
+    background-color: rgb(65, 223, 223);
+    padding: 12px 10px;
+    margin-left: 500px;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    font-size: 
+}
+.chip-parent{
+    margin-top: 50px;
+}
+.second-heading-sec{
+    font-size: 30px;
+}
+.circle{
+    background-color: lrgb(240, 236, 236);
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    text-align: center;
+    border: 2px solid blue;
+    margin-left: 155px;
+    margin-top: -30px;
+}
+.circle-icon{
+    width: 30px;
+    margin-top: 8.5px;
+}
+.circle-icon img{
+    width: 100%;
+    margin-left: 8.5px;
+    border-radius: 100px;
+}
+.chip-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20PX;
+}
+.chip{
+    width: 32%;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.chip-heading-p{
+    text-align: center;
+}
+.chip-heading-p h3{
+    padding: 30px;
+}
+.chip-heading-p h4{
+    padding-bottom: 40px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(9, 108, 141);
+    color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.footer-flex{
+    padding: 50px 0;
+    padding-left: 50px;
+}
+.footer-flex h1{
+    font-size: 30px;
+}
+.footer-flex p{
+    font-size: 20px;
+} 
+.footer-search{
+    padding-top: 70px;
+    padding-right: 150px;
+    gap: 20px;
+}
+.footer-search input{
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+}
+.footer-search button{
+    margin-left: 15px;
+    padding: 15px;
+    background-color: rgb(65, 223, 223);
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+}
+.footer-search button:hover{
+transition: 0.2s ease-in-out;
+background-color: rgb(3, 3, 41);
+color: white;
+}
+.last-footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.last-footer p{
+    color: gray;
+}
+.footer-circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.945);
+    margin-top: -50px;
+}
+.circle-img{
+    width: 20px;
+    margin-top: 40px;
+
+}
+.circle-img img{
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
